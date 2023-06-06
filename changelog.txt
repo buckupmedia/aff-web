@@ -1,0 +1,131 @@
+
+
+[1.0.0]
+
+First Release
+
+[1.1.0]
+
+- Fix RTL Layout
+	- ./assets/css/theme.css
+	- ./assets/css/theme-rtl.css
+
+[1.5.0]
+
+- Cookie Consent
+	- ./assets/css/cookieconsent.min.css (New File)
+	- ./assets/js/cookieconsent.min.js (New File)
+	- ./views/footer.view.php
+	- ./cookieconsent.php (New File)
+
+- Exclusive Deals (Now only registered users can see exclusive deals)
+	- ./views/single-deal.view.php
+	- ./assets/css/theme.css
+	- translations table changed
+
+[1.6.0]
+
+- Fix Sub Category Edit
+	- ./admin/controller/edit_subcategory.php
+
+- Fix Test Email Logo on Admin Panel
+	- ./admin/controller/test-email.php
+
+- Add New Key on Admin Panel Language
+	- ./admin/lang/lang_en.php
+	- ./admin/views/theme.view.php
+	- ./admin/views/ads.view.php
+
+- Add Sitemap
+	- ./functions.php
+	- ./sitemap.php
+	- ./.htaccess
+
+[1.7.0]
+
+- Fixed: Profile (Admin Panel)
+	- ./admin/controller/sidebar.php
+	- ./admin/controller/profile.php
+	- ./admin/views/profile.view.php
+	- ./admin/views/sidebar.view.php
+- Fixed: Change Theme Settings
+	- ./admin/controller/update-theme.php
+
+- New Section: Comments/Reviews (Admin Panel)
+	- ./admin/functions.php
+	- ./admin/views/comments.view.php
+	- ./admin/controller/comments.php
+	- ./admin/controller/get_comments.php
+	- ./admin/controller/delete_comment.php
+	- ./admin/views/sidebar.view.php
+	- ./admin/lang/lang_en.php
+	- ./admin/views/home.view.php
+
+[1.8.0]
+
+- Added: Comments/Reviews Moderation (Admin Panel)
+	- ./admin/controller/approve_comment.php
+	- ./admin/controller/verify_comment.php
+	- ./admin/views/comments.view.php
+
+- Fixed: Reset Password
+	- ./reset.php
+
+[1.9.0]
+
+- Added: GIF Support
+	- ./admin/controller/edit_deal.php
+	- ./admin/controller/new_deal.php
+	- ./admin/views/edit_deal.view.php
+	- ./admin/views/new_deal.view.php
+	- ./admin/lang/lang_en.php
+	- ./sections/views/exclusive-deals.view.php
+	- ./sections/views/latest-deals.view.php
+	- ./sections/views/featured-deals.view.php
+	- ./sections/views/related-deals.view.php
+	- ./views/single-location.view.php
+	- ./pages/views/search.view.php
+
+[2.0.0]
+
+- Added: Enable publish offers without price (By setting price as 0)
+	- ./admin/views/edit_deal.view.php
+	- ./admin/views/new_deal.view.php
+	- ./admin/lang/lang_en.php
+	- ./sections/views/exclusive-deals.view.php
+	- ./sections/views/latest-deals.view.php
+	- ./sections/views/featured-deals.view.php
+	- ./sections/views/related-deals.view.php
+	- ./views/single-deal.view.php
+	- ./views/single-location.view.php
+
+- Added: Fix Price Filter
+	- ./sections/views/search-form.view.php
+
+[2.1.0]
+
+- Updated: PhpMailer Library
+	- ./classes/phpmailer (Replace folder)
+
+[2.2.0]
+
+- Fixed: Bug
+	- ./functions.php
+
+[2.3.0]
+
+- Fixed: Ad Position
+	- ./sections/views/sidebar-ad.view.php
+	- ./sections/views/search-form.view.php
+	- ./sections/views/footer-ad.view.php
+	- ./sections/views/header-ad.view.php
+	- ./pages/views/categories.view.php
+	- ./pages/views/search.view.php
+	- ./pages/views/stores.view.php
+	- ./pages/views/locations.view.php
+	- ./views/single-page.view.php
+
+[2.4.0]
+
+- Fixed: Depreacted functions on php >=8.1
+	- ./functions.php
