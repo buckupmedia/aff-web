@@ -8,7 +8,7 @@
 
 //URL PROJECT
 
-define ('SITE_URL', 'YOUR_DOMAIN_HERE');
+define ('https://monkfish-app-zscfo.ondigitalocean.app/', 'buckup');
 
 //DATABASE CONFIG
 
